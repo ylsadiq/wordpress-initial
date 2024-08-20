@@ -1,0 +1,23 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+.mobile_menus{
+    display: none;
+}
+@media (max-width: 767.98px) {
+    .nav_menus{
+        display: none;
+    }
+    .mobile_menus{
+        display: block;
+    }
+    .footer_sm{
+        padding: 0 1rem;
+        text-align: center;
+        flex-direction: column;
+    }
+}

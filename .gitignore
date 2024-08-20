@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Yarn lock file
+yarn.lock
+
+# Build output (you might want to version control this depending on your deployment process)
+build/
+
+# Logs and debug files
+*.log
+*.out
+*.pid
+*.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# WordPress core files (if your repository is only for the theme)
+wp-config.php
+.htaccess
+
+# Temporary files
+*.tmp
+*.swp
+.sass-cache/
+.vscode/
+
+# WordPress theme-specific files
+screenshot.png
+
+# Hidden files and folders
+.env
+.idea/
